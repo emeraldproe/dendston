@@ -482,7 +482,7 @@ function library:CreateWindow(name, size, hidebutton)
         tab.Right.ScrollingDirection = "Y"
         tab.Right.Visible = false
         tab.Right.BorderSizePixel = 0
-        tab.Right.Size = UDim2.fromOffset(window.size.X.Offset / 2, window.size.Y.Offset - (window.TopBar.AbsoluteSize.Y + 1))
+        tab.Right.Size = UDim2.fromOffset(window.size.X.Offset / 6, window.size.Y.Offset - (window.TopBar.AbsoluteSize.Y + 1))
         tab.Right.BackgroundTransparency = 1
         tab.Right.Position = tab.Left.Position + UDim2.fromOffset(tab.Left.AbsoluteSize.X, 0)
 
